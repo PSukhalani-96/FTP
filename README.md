@@ -18,14 +18,14 @@ Note: Fork() is used to create multiclient environment.
 	2.  PASS – This command sends the user password to the server.
 	3.  MKD  – This command causes the directory specified in the path name to be created as a directory.
 	4.  CWD  – This command allows the user to change the current working directory to the path specified with the 
-			   command.
+	           command.
 	5.  RMD  – This command causes the directory specified in the path-name to be removed as a directory.
 	6.  PWD  – This command causes the name of the current working directory to be returned in the reply.
 	7.  RETR – This command send the requested file over the data connection.
 	8.  STOR – This command causes to store a file into the current directory of the remote host.
 	9.  LIST – Sends a request to display the list of all the files present in the directory.
 	10. ABOR – This command tells the server to abort the previous FTP service command and any associated transfer 
-			   of data.
+	           of data.
 	11. QUIT – This command terminates a USER and if file transfer is not in progress, the server closes the connection.
 
 **Some of FTP replies used are**
